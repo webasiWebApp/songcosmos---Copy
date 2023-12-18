@@ -1,0 +1,462 @@
+header.app-header{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px #EB5C27 solid;
+
+    padding: 0px 10px 0px 50px;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.app-header nav{
+    width: max-content;
+    font-size: 14px;
+    color: #FCFCFC;
+}
+
+.app-header nav i{
+   margin-left: 20px;
+   margin-right: 5px;
+    
+}
+
+.app-header h2{
+    color: #EB5C27;
+    font-weight: 900;
+}
+
+.mobile-app-menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .app-header nav{
+        display: none;
+    }
+
+    .mobile-app-menu-icon{
+        display:block;
+    }
+
+    .app-menu-item{
+        margin-top: 15px;
+        font-weight: 400;
+    }
+
+    .app-header nav i{
+        margin-right: 10px;
+     }
+
+}
+
+
+/* music buddies */
+
+.music-buddies .container{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background:linear-gradient(180deg ,
+    #161622d8,
+    #161622f3
+  ) , url("../image/music-buddies-app.jpg");
+
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:100% 100vh;
+
+    padding: 70px;
+}
+
+.music-buddies .container .title{
+    font-size: 80px;
+    font-weight: 900;
+    color: #FCFCFC;
+    text-align: center;
+}
+
+.music-buddies .container .title span{
+    color: #EB5C27;
+}
+
+.music-buddies .container .sub-title{
+    margin-top: 0;
+}
+
+.music-buddies .search-menu{
+    width: 100%;
+    height: auto;
+
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-buddies .search-menu form{
+    width: 85%;
+    height: auto;
+}
+
+.music-buddies .search-menu .search-input{
+    width: 90%;
+    height: 60px;
+    /* border-radius: 5px 0px 0px 5px !important; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.music-buddies .search-input .search-button{
+    width: 10%;
+    height: 60px;
+    /* border-radius: 0px 5px 5px 0px !important; */
+}
+
+.memberWrapper{
+    position: absolute;
+    transform: translate(-20px ,-20px);
+}
+
+.music-buddies .search-menu .filterBtn{
+    width:200px 
+}
+
+@media screen and (max-width: 600px){
+    .music-buddies .container{
+        padding: 5px;
+    }
+
+    .music-buddies .container .title{
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 70px;
+    }
+
+    .music-buddies .container .sub-title{
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .music-buddies .search-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .music-buddies .search-menu .filterBtn{
+        margin-top: 20px;
+        width:80% 
+    }
+}
+
+/* User Profile */
+
+.profile-view{
+    width: 100%;
+    min-height: 100vh;
+
+    background:linear-gradient(180deg ,
+    #16162269,
+    #161622f3
+  ) , url("https://images.unsplash.com/photo-1572220555770-bd2feb5b7a30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80");
+
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:100% 60vh;
+
+    padding: 70px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile-view .main-details{
+    width: max-content;
+    height: auto;
+    margin-top: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-view .main-details h3{
+
+    font-size: 25px;
+    font-weight: 700;
+    color: #FCFCFC;
+}
+
+.profile-view .main-details p{
+    color: #EB5C27;
+    width: 100%;
+    height: auto;
+
+    font-weight: bold;
+    margin-top: 30px;
+
+    word-wrap: break-word;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile-view .main-details p span{
+    padding: 3px 10px 3px 10px;
+    background-color: #303041;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.profile-view .description{
+    width: 100%;
+    color: #FCFCFC;
+    margin-top: 70px;
+    padding: 70px;
+
+    font-size: 18px;
+}
+
+.profile-view .buy-now{
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .profile-view{
+        padding: 5px;
+    }
+    .profile-view .description{
+        margin-top: 30px;
+        padding: 15px;
+    
+        font-size: 14px;
+    }
+
+    .profile-view .main-details p{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}
+
+/* Lincense page */
+
+.license-sec{
+    width: 100%;
+    min-height: 100vh;
+    padding: 70px;
+
+    background:linear-gradient(180deg ,
+    #161622a2,
+    #161622f3
+  ) , url("../image/licenceBg.jpg");
+
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:100% 60vh;
+}
+
+.license-sec .title{
+    font-size:70px;
+    font-weight:900;
+}
+
+.license-sec .search-wrapper{
+    width:70%;
+}
+
+@media screen and (max-width: 600px){
+    .license-sec{
+        padding: 5px;
+    }
+
+    .license-sec .title{
+        font-size:40px;
+        font-weight:800;
+        margin-top: 50px;
+    }
+    .license-sec .sub-title{
+        display: none;
+    }
+
+    .license-sec .search-wrapper{
+        width:90%;
+    }
+}
+
+
+/* Vidya dristribure page */
+
+.vidyaSongcosmos-sec{
+    width: 100%;
+    min-height: 100Vh;
+}
+
+.vidyaSongcosmos-sec::-webkit-scrollbar{
+    display: none;
+}
+
+.vidyaSongcosmos-sec::-webkit-scrollbar-track{
+    display: none;
+}
+
+.vidyaSongcosmos-sec iframe{
+    width: 100%;
+    height: 100Vh;
+}
+
+
+
+/* Checkout page */
+
+.checkout-sec{
+    width: 100%;
+    min-height:100vh;
+}
+
+.checkout-sec .container{
+    width: 100%;
+    height: auto;
+
+    padding: 70px;
+}
+
+.checkout-sec .title{
+    color: #EB5C27;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.checkout-sec .sub-title{
+    color: #FCFCFC;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.license-selected-types{
+    width: 100%;
+}
+
+.license-selected-types p{
+    color: #FCFCFC;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #63240d;
+    padding: 3px 8px 3px 8px;
+    border: #EB5C27 1px solid;
+}
+
+.price-catolog{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.price-catolog p{
+    width: 100%;
+    color: #FCFCFC;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    border-bottom: 1px #615b5b solid;
+
+    padding: 10px 0px 10px 0px;
+}
+
+.price-catolog p .price{
+    font-weight: bold;
+}
+
+.price-catolog p .final{
+    color: #EB5C27;
+    font-size: 16px;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .checkout-sec .container{
+        padding: 10px;
+    }
+
+    .checkout-sec .title{
+        margin-bottom: 0 !important;
+    }
+}
+
+
+
+
+/* Membership badge  */
+
+.memberBadge{
+    width: 160px;
+    height: 30px;
+    border-radius: 20px;
+    /* background-color: #eb5b27ad; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    padding: 0px 3px 0px 3px;
+}
+
+.memberBadge i {
+    font-size: 16px;
+    padding: 3px;
+    margin-right: 3px;
+}
+
+/* Inbox */
+
+.inbox-sec{
+    width: 100%;
+    min-height: 100vh;
+
+    background:linear-gradient(180deg ,
+    #161622,
+    #161622f3
+  ) , url("../image/collaboration.jpg");
+
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+#chatField{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}

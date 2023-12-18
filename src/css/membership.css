@@ -1,0 +1,192 @@
+
+.membership-page{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.membership-page .container{
+    width: 100%;
+    height: auto;
+    padding: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.membership-page .title{
+    color: #FCFCFC;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.membership-page .title span{
+    color: #EB5C27;
+  }
+
+
+
+
+
+.membership-page .membership-row{
+    width: 95%;
+}
+
+.membership-page .membership-row .packge-card{
+    width: 370px;
+    height: 120vh;
+    border: 1px #eb5b2773 solid;
+    border-radius: 15px;
+    padding: 5px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #FCFCFC;
+    overflow: hidden;
+}
+
+.membership-page .membership-row .packge-card:hover{
+    border: 1px #EB5C27 solid;
+}
+
+.membership-page .membership-row .packge-card .select{
+   
+    width: 80%;
+    margin-top: 40px;
+}
+
+
+.membership-page .membership-row .packge-card h2{
+    font-size: 20px;
+    font-weight: 800;
+
+ 
+}
+
+.membership-page .membership-row .packge-card .recomment{
+    width: 120%;
+    height: 35px;
+    background-color: #EB5C27;
+    color: #FCFCFC;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    
+    position: relative;
+    top: -4%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.membership-page .membership-row .packge-card h3{
+    font-size: 40px;
+    font-weight: 600;
+  
+}
+
+.membership-page .membership-row .packge-card h3 .membership-time{
+    font-size: 16px;
+    color: #88909A;
+
+    
+}
+
+
+.membership-page .membership-row .packge-card .join-us-btn{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.membership-page .membership-row .packge-card .benifit{
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+}
+
+.membership-page .membership-row .packge-card .benifit p{
+    text-align: left;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.membership-page .membership-row .packge-card .benifit p::before{
+    content: "✔";
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.membership-page .compare-table {
+    width: 100%;
+    height: auto;
+
+    margin-top: 150px;
+
+
+}
+
+.membership-page .compare-table h2{
+    font-size: 40px;
+    text-align: center;
+    color: #FCFCFC;
+    font-weight: 800;
+
+    margin-bottom: 100px;
+}
+
+.membership-page .compare-table h2 span{
+    color: #EB5C27;
+}
+
+.membership-page .benifit-image{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 600px){
+    .membership-page .container{
+        padding: 0px;
+        padding-right: 5px;
+    }
+
+    .membership-page .title{
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .membership-page .membership-row .packge-card .recomment{
+        width: 120%;
+        height: 30px;
+        font-size: 13px;
+        position: relative;
+        top: -3%;
+    }
+
+    .membership-page .compare-table h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+
+}
