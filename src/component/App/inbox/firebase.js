@@ -6,12 +6,13 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCejm4jfUevrR894OzwanugYbQtnDAaq3s",
-  authDomain: "chat-songcosmos.firebaseapp.com",
-  projectId: "chat-songcosmos",
-  storageBucket: "chat-songcosmos.appspot.com",
-  messagingSenderId: "198137517034",
-  appId: "1:198137517034:web:9bd84ac4af6ed970769893"
+  apiKey: "AIzaSyArgd27ejjLLxDPJuGSlhUQi_erBOa-TJE",
+  authDomain: "songcosmos-chatbox.firebaseapp.com",
+  projectId: "songcosmos-chatbox",
+  storageBucket: "songcosmos-chatbox.appspot.com",
+  messagingSenderId: "905524657774",
+  appId: "1:905524657774:web:478715b6328c48ea3c307f",
+  measurementId: "G-G3K53PJDXN"
 };
 
 // Initialize Firebase

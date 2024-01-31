@@ -10,6 +10,7 @@ import Footer from "../footer/Footer";
 import { Grid, GridItem } from "@chakra-ui/react";
 import { Card, CardBody,Select } from '@chakra-ui/react'
 import { Box, Button , Flex} from '@chakra-ui/react';
+import {Modal,ModalOverlay,ModalContent,useDisclosure,ModalFooter,ModalBody,ModalCloseButton,} from '@chakra-ui/react'
 
 import about_img from "../../image/about-us-img.jpg";
 import destribution from "../../image/distribution.webp";
@@ -73,10 +74,32 @@ export default function Home (){
           },
         ],
       };
+
+      const { isOpen, onOpen, onClose } = useDisclosure()
+      React.useEffect(() => {onOpen();}, []);
  
 
     return(
         <div>
+
+        {/* Bita version message */}
+        <Modal isOpen={isOpen} onClose={onClose} >
+            <ModalOverlay />
+            <ModalContent style={{backgroundColor:"#151521"}}>
+            <ModalBody padding={"5"} >
+                <p style={{color:"white"}}>Thank you for visiting our website. This beta version offers just a glimpse of the exciting features we have in store. We invite you to explore and return soon for a truly remarkable experience. Our full services will be launched shortly. We appreciate your interest and look forward to welcoming you back.</p>
+            </ModalBody>
+
+            <ModalFooter>
+                <Button colorScheme='orange' mr={3} onClick={onClose}>
+                    Okey
+                </Button>
+                
+            </ModalFooter>
+            </ModalContent>
+        </Modal>
+
+
             <section className="home-sec">
                 <Navbar/>
                 <HomeAnime/>

@@ -68,6 +68,7 @@ export default function Inbox(){
         }
 
         if(musicBuddieId){
+            console.log(musicBuddieId + "GGGGGGGGGGGGGGGGGGGGGGGGGGG")
             createChatsConn();
         }
 
@@ -86,10 +87,10 @@ export default function Inbox(){
         
         // Create chats connections
         const connectionId = `${userId}-${musicBuddieId}`;
+
+        
       
         try {
-
-            
           const docSnapshot = await getDoc(doc(db, "chatsConn", connectionId));
           const musicBuddie = await getDoc(doc(db, "user", musicBuddieId));
           const user = await getDoc(doc(db, "user", userId));
@@ -145,7 +146,8 @@ export default function Inbox(){
 
       async function getChatsConns(){
         onSnapshot(doc(db, "user", userId),async (doc) => {
-            
+        
+
             let chatsConnArray = [];
             let connIdArray = doc.data().chatConn.map((conn)=>{return conn});
          
