@@ -10,16 +10,18 @@ import home_dec_2 from "../../image/home-dec-2.png";
 import home_dec_3 from "../../image/home-dec-3.png";
 import home_dec_4 from "../../image/home-dec-4.png";
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 export default function HomeAnime (){
 
     return(
         <div className="home-anime">
 
-            <img src={home_dec_1} alt="home dec 1" className="home-dec-1"/>
-            <img src={home_dec_2} alt="home dec 2" className="home-dec-2"/>
-            <img src={home_dec_3} alt="home dec 3" className="home-dec-3"/>
-            <img src={home_dec_3} alt="home dec 4" className="home-dec-4"/>
+            <LazyLoadImage src={home_dec_1} alt="home dec 1" className="home-dec-1"/>
+            <LazyLoadImage src={home_dec_2} alt="home dec 2" className="home-dec-2"/>
+            <LazyLoadImage src={home_dec_3} alt="home dec 3" className="home-dec-3"/>
+            <LazyLoadImage src={home_dec_3} alt="home dec 4" className="home-dec-4"/>
 
             <h1 id="home-text" >ALL IN ONE <br/> <span >MUSIC</span></h1>
 

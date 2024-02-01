@@ -34,7 +34,7 @@ import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 import { color } from "framer-motion";
 
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 //import { motion } from "framer-motion";
@@ -111,7 +111,7 @@ export default function Home (){
                     <GridItem className="col-6" colSpan={{ base: 2, lg: 1 }}>
 
                         <div className="about-left-fill-box" >
-                            <img src={about_img} alt="about us img"  className="about-us-img"/>
+                            <LazyLoadImage src={about_img} alt="about us img"  className="about-us-img"/>
                         </div>
 
                     </GridItem>
@@ -136,7 +136,7 @@ export default function Home (){
                     <GridItem colSpan={{ base: 2, lg: 1 }}>
                         <Card style={{"backgroundColor":"transparent"}}>
                             <CardBody className="services-card">
-                                <img src={destribution} alt="services distribute" />
+                                <LazyLoadImage src={destribution} alt="services distribute" />
                                 <h5>Unlimited Music Distribute</h5>
                                 <p>Embrace efficient multi-channel distribution, centralising music delivery for easy monetisation and reaching listeners seamlessly from one platform.</p>
                                 
@@ -147,7 +147,7 @@ export default function Home (){
                     <GridItem colSpan={{ base: 2, lg: 1 }}>
                         <Card style={{"backgroundColor":"transparent"}}>
                             <CardBody className="services-card">
-                                <img src={publishing} alt="services distribute" />
+                                <LazyLoadImage src={publishing} alt="services distribute" />
                                 <h5>Unlimited Music Publishing</h5>
                                 <p>Join us for global music publishing: license, promote, protect artists' rights, earn copyright royalties worldwide. Let's thrive together!</p>
                             </CardBody>
@@ -157,7 +157,7 @@ export default function Home (){
                     <GridItem colSpan={{ base: 2, lg: 1 }}>
                         <Card style={{"backgroundColor":"transparent"}}>
                             <CardBody className="services-card">
-                                <img src={teamwork} alt="services distribute" />
+                                <LazyLoadImage src={teamwork} alt="services distribute" />
                                 <h5>Collaboration</h5>
                                 <p>Experience the magic of collaboration in creating inspiring and connecting music that's new and exciting. Join us today!</p>
                             </CardBody>
@@ -169,7 +169,7 @@ export default function Home (){
                     <GridItem colSpan={{ base: 2, lg: 1 }}>
                         <Card style={{"backgroundColor":"transparent"}}>
                             <CardBody className="services-card">
-                                <img src={license} alt="services distribute" />
+                                <LazyLoadImage src={license} alt="services distribute" />
                                 <h5>License</h5>
                                 <p>Streamline your music journey with our copyright licensing service for <strong style={{color:"#EB5C27"}}>Sri Lankan</strong> Song catalogue, simplifying life for creators in Sri Lanka.</p>
                             </CardBody>
@@ -179,7 +179,7 @@ export default function Home (){
                     <GridItem colSpan={{ base: 2, lg: 1 }}>
                         <Card style={{"backgroundColor":"transparent"}}>
                             <CardBody className="services-card">
-                                <img src={discount} alt="services distribute" />
+                                <LazyLoadImage src={discount} alt="services distribute" />
                                 <h5>Pro Audio Discount</h5>
                                 <p>Join SONGCOSMOS and enjoy exclusive discounts on Pro Audio Gears, empowering your music creation journey with top-notch equipment!</p>
                             </CardBody>
@@ -188,7 +188,7 @@ export default function Home (){
                     <GridItem colSpan={{ base: 2, lg: 1 }}>
                         <Card style={{"backgroundColor":"transparent"}}>
                             <CardBody className="services-card">
-                                <img src={profit} alt="services distribute" />
+                                <LazyLoadImage src={profit} alt="services distribute" />
                                 <h5>Annual Profit Shares</h5>
                                 <p>At SONGCOSMOS, we believe in empowering creators. Join us for annual profit shares, fostering growth and support for our members.</p>
                             </CardBody>
@@ -216,7 +216,7 @@ export default function Home (){
                     <GridItem className="col-6" colSpan={{ base: 2, lg: 1 }}>
 
                         <div className="edu-left-fill-box" >
-                            <img src={edu_img} alt="edu us img"  className="edu-us-img"/>
+                            <LazyLoadImage src={edu_img} alt="edu us img"  className="edu-us-img"/>
                         </div>
 
                     </GridItem>
@@ -231,7 +231,7 @@ export default function Home (){
                     <GridItem className="col-6" colSpan={{ base: 2, lg: 1 }}>
 
                         <div className="songcosmos-left-fill-box" >
-                            <img src={songcosmos} alt="songcosmos us img"  className="songcosmos-us-img"/>
+                            <LazyLoadImage src={songcosmos} alt="songcosmos us img"  className="songcosmos-us-img"/>
                         </div>
 
                     </GridItem>
@@ -253,7 +253,7 @@ export default function Home (){
 
                         <Card style={{"backgroundColor":"#2d2d42"}}>
                             <CardBody className="blog-card">
-                                <img src={blog_img} alt="blog_img" />
+                                <LazyLoadImage src={blog_img} alt="blog_img" />
                                 <Link to="/" ><h4>Mixing in Stereo: 4 Tips for Wider Sounding Tracks</h4></Link>
                                 <p>
                                 Modern mixes need to sound wide and immersive in stereo. But getting a strong sense of width and depth into your tracks isn’t always easy. In fact, if you’re new to producing music you might not know where to start when it comes to mixing in stereo. In this article I’ll break down 6 helpful tips for better stereo sound
@@ -268,7 +268,7 @@ export default function Home (){
 
                         <Card style={{"backgroundColor":"#2d2d42"}}>
                             <CardBody className="blog-card">
-                                <img src={blog_img} alt="blog_img" />
+                                <LazyLoadImage src={blog_img} alt="blog_img" />
                                 <Link to="/" ><h4>Mixing in Stereo: 4 Tips for Wider Sounding Tracks</h4></Link>
                                 <p>
                                 Modern mixes need to sound wide and immersive in stereo. But getting a strong sense of width and depth into your tracks isn’t always easy. In fact, if you’re new to producing music you might not know where to start when it comes to mixing in stereo. In this article I’ll break down 6 helpful tips for better stereo sound
@@ -283,7 +283,7 @@ export default function Home (){
 
                         <Card style={{"backgroundColor":"#2d2d42"}}>
                             <CardBody className="blog-card">
-                                <img src={blog_img} alt="blog_img" />
+                                <LazyLoadImage src={blog_img} alt="blog_img" />
                                 <Link to="/" ><h4>Mixing in Stereo: 4 Tips for Wider Sounding Tracks</h4></Link>
                                 <p>
                                 Modern mixes need to sound wide and immersive in stereo. But getting a strong sense of width and depth into your tracks isn’t always easy. In fact, if you’re new to producing music you might not know where to start when it comes to mixing in stereo. In this article I’ll break down 6 helpful tips for better stereo sound
@@ -304,19 +304,19 @@ export default function Home (){
                 <div>
                     <Slider {...SlideSettings}>
                         <div>
-                            <img src={partner1} alt="partner" />
+                            <LazyLoadImage src={partner1} alt="partner" />
                         </div>
                         <div>
-                            <img src={partner2} alt="partner" />
+                            <LazyLoadImage src={partner2} alt="partner" />
                         </div>
                         <div>
-                            <img src={partner3} alt="partner" />
+                            <LazyLoadImage src={partner3} alt="partner" />
                         </div>
                         <div>
-                            <img src={partner4} alt="partner" />
+                            <LazyLoadImage src={partner4} alt="partner" />
                         </div>
                         <div>
-                            <img src={partner5} alt="partner" />
+                            <LazyLoadImage src={partner5} alt="partner" />
                         </div>
                     </Slider>
                 </div>

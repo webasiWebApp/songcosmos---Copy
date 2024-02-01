@@ -96,7 +96,7 @@ nav .sign-up-btn{
     background:linear-gradient(90deg ,
         #161622e8,
         #161622e5
-      ) , url("../image/services-sec.gif");
+      ) , url("../image/services-sec.jpg");
    
     animation: bg-color-animation 4s ease forwards;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ nav .sign-up-btn{
         background:linear-gradient(90deg ,
         #161622f5,
         #161622f5
-      ) , url("../image/services-sec.gif");
+      ) , url("../image/services-sec.jpg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -118,7 +118,7 @@ nav .sign-up-btn{
         background:linear-gradient(90deg ,
         #161622f5,
         #161622f5
-      ) , url("../image/services-sec.gif");
+      ) , url("../image/services-sec.jpg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -649,7 +649,7 @@ nav .sign-up-btn{
     width: 100%;
     height: auto;
 
-    background:linear-gradient(90deg, #161622 0%, #161622e8 100%) , url("../image/key-player.jpg");
+    background:linear-gradient(90deg, #161622 0%, #161622e8 100%) , url("../image/key-player.webp");
  
     background-repeat: repeat;
     background-position:top;

@@ -109,42 +109,10 @@ export default function Membership(){
 
 
                         </Box>
-                        <Box w={{base: "100%", lg: "33.33%"}}>
-                            <div className="packge-card silver-packege"> 
-                            <div className="recomment" style={{display:"none"}}>RECOMMEND</div>
-                                <h2>LIFE SILVER</h2>
-                                
-                                <h3 ><sup style={{"fontSize":"16px",fontWeight:"bolder"}}> $ </sup>30<span className="membership-time"> for the Life</span></h3>
-
-                                <Link className="join-us-btn" to="/app/checkout?id=Msil&type=membership&isCart=no&lType=none&mem=Msil" target="_blank" >
-                                    <Button type="submit" colorScheme="orange"  bg="#EB5C27" color="#FCFCFC" _hover={{color: "#EB5C27",bg: "white",transition:"0.56s ease"}} style={{"width":"70%","margin":"0px 0px 15px 0px"}}>
-                                        JOIN Now!
-                                </Button>
-                                </Link>
-
-                                <div className="benifit">
-                                    <p>IPI Registration (Integrated Pub Admin)</p>
-                                    <p>Unlimited Music Publishing</p>
-                                    <p>Unlimited Music Distribution</p>
-                                    <p>Keep 90% of Music Distribution Revenue</p>
-                                    <p>Keep 85% of Music Publishing Revenue</p>
-                                    <p>Individual Distribution Account</p>
-                                    <p>Individual Publishing Account</p>
-                                    <p>Monthly Payout </p>
-                                    <p>Performance Analysis </p>
-                                    <p>SONGCOSMOS® Annual Profit Share (15%) </p>
-                                    <p>10% Discount on Licencing PEARLBAY® Publishing Catalogue in Sri Lanka </p>
-                                    {/* <p>7% Pearlbay Institute Discount </p> */}
-                                    <p>2.5% PEARLBAY® Music Store Pro Audio Discount </p>
-                                    <p>5% Off on Other PEARLBAY® Services </p>
-                                    
-                                    {/* <p>30% Discount on Licencing Pearlbay Publishing Catalogue</p> */}
-                                </div>
-                            </div>
-                        </Box>
+                        
 
 
-                        <Box w={{base: "100%", lg: "33.33%"}}>
+                        <Box w={{base: "100%", lg: "33.33%"}} display={"none"} >
                             <div className="packge-card gold-packege"> 
                             
                                 <h2>ANNUAL GOLD</h2>
@@ -180,7 +148,44 @@ export default function Membership(){
                                 
                             </div>
                         </Box>
+
+                        <Box w={{base: "100%", lg: "33.33%"}}></Box>
                         <Box w={{base: "100%", lg: "33.33%"}}>
+                            <div className="packge-card silver-packege"> 
+                            <div className="recomment" style={{display:"none"}}>RECOMMEND</div>
+                                <h2>LIFE SILVER</h2>
+                                
+                                <h3 ><sup style={{"fontSize":"16px",fontWeight:"bolder"}}> $ </sup>30<span className="membership-time"> for the Life</span></h3>
+
+                                <Link className="join-us-btn" to="/app/checkout?id=Msil&type=membership&isCart=no&lType=none&mem=Msil" target="_blank" >
+                                    <Button type="submit" colorScheme="orange"  bg="#EB5C27" color="#FCFCFC" _hover={{color: "#EB5C27",bg: "white",transition:"0.56s ease"}} style={{"width":"70%","margin":"0px 0px 15px 0px"}}>
+                                        JOIN Now!
+                                </Button>
+                                </Link>
+
+                                <div className="benifit">
+                                    <p>IPI Registration (Integrated Pub Admin)</p>
+                                    <p>Unlimited Music Publishing</p>
+                                    <p>Unlimited Music Distribution</p>
+                                    <p>Keep 90% of Music Distribution Revenue</p>
+                                    <p>Keep 85% of Music Publishing Revenue</p>
+                                    <p>Individual Distribution Account</p>
+                                    <p>Individual Publishing Account</p>
+                                    <p>Monthly Payout </p>
+                                    <p>Performance Analysis </p>
+                                    <p>SONGCOSMOS® Annual Profit Share (15%) </p>
+                                    <p>10% Discount on Licencing PEARLBAY® Publishing Catalogue in Sri Lanka </p>
+                                    {/* <p>7% Pearlbay Institute Discount </p> */}
+                                    <p>2.5% PEARLBAY® Music Store Pro Audio Discount </p>
+                                    <p>5% Off on Other PEARLBAY® Services </p>
+                                    
+                                    {/* <p>30% Discount on Licencing Pearlbay Publishing Catalogue</p> */}
+                                </div>
+                            </div>
+                        </Box>
+
+                        <Box w={{base: "100%", lg: "33.33%"}}></Box>
+                        <Box w={{base: "100%", lg: "33.33%"}} display={"none"}>
                             
                             <div className="packge-card platinum-packege"> 
 

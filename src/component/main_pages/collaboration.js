@@ -22,6 +22,8 @@ import session from "../../image/session-artist.webp";
 import tutor from "../../image/tutor.png";
 
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 export default function Collaboration(){
 
@@ -52,7 +54,7 @@ export default function Collaboration(){
 
                     <Box colSpan={{ base: "auto", md: 1 }} className="col">
                         <div className="card">
-                            <Image src={singer} alt="singer" className="img" />
+                        <LazyLoadImage src={singer} alt="singer" className="img" />
                             <p>Singer</p>
 
                             <Button className="collaboration-item-btn" bg="#EB5C27" onClick={redirectMusicBuddies} size="lg" w="230px" color="#FCFCFC" style={{"marginTop":"30px" }} _hover={{color: "#EB5C27",bg: "white",transition:"0.56s ease"}} > Find Singer </Button>
@@ -61,7 +63,7 @@ export default function Collaboration(){
 
                     <Box colSpan={{ base: "auto", md: 1 }} className="col">
                         <div className="card">
-                            <Image src={lyrist} alt="singer" className="img" />
+                            <LazyLoadImage src={lyrist} alt="singer" className="img" />
                             <p>Lyrists</p>
 
                             <Button className="collaboration-item-btn" bg="#EB5C27" onClick={redirectMusicBuddies} size="lg" w="230px" color="#FCFCFC" style={{"marginTop":"30px" }} _hover={{color: "#EB5C27",bg: "white",transition:"0.56s ease"}} > Find Lyrists </Button>
@@ -70,7 +72,7 @@ export default function Collaboration(){
 
                     <Box colSpan={{ base: "auto", md: 1 }} className="col">
                         <div className="card">
-                            <Image src={composer} alt="singer" className="img" />
+                            <LazyLoadImage src={composer} alt="singer" className="img" />
                             <p>Composers</p>
 
                             <Button className="collaboration-item-btn" bg="#EB5C27" onClick={redirectMusicBuddies} size="lg" w="230px" color="#FCFCFC" style={{"marginTop":"30px" }} _hover={{color: "#EB5C27",bg: "white",transition:"0.56s ease"}} > Find Composers  </Button>
@@ -79,7 +81,7 @@ export default function Collaboration(){
 
                     <Box colSpan={{ base: "auto", md: 1 }} className="col">
                         <div className="card">
-                            <Image src={Mixing} alt="singer" className="img" />
+                            <LazyLoadImage src={Mixing} alt="singer" className="img" />
                             <p>Mixing Engineers</p>
 
                             <Button className="collaboration-item-btn" bg="#EB5C27" onClick={redirectMusicBuddies} size="lg" w="230px" color="#FCFCFC" style={{"marginTop":"30px" }} _hover={{color: "#EB5C27",bg: "white",transition:"0.56s ease"}} > Find Mixing Engineers  </Button>
@@ -88,7 +90,7 @@ export default function Collaboration(){
 
                     <Box colSpan={{ base: "auto", md: 1 }} className="col">
                         <div className="card">
-                            <Image src={Mastering} alt="singer" className="img" />
+                            <LazyLoadImage src={Mastering} alt="singer" className="img" />
                             <p>Mastering Engineers</p>
 
                             <Button className="collaboration-item-btn" bg="#EB5C27" onClick={redirectMusicBuddies} size="lg" w="230px" color="#FCFCFC" style={{"marginTop":"30px" }} _hover={{color: "#EB5C27",bg: "white",transition:"0.56s ease"}} > Find Mastering Engineers  </Button>
@@ -97,7 +99,7 @@ export default function Collaboration(){
 
                     <Box colSpan={{ base: "auto", md: 1 }} className="col">
                         <div className="card">
-                            <Image src={producer} alt="singer" className="img" />
+                            <LazyLoadImage src={producer} alt="singer" className="img" />
                             <p>Producers</p>
 
                             <Button className="collaboration-item-btn" bg="#EB5C27" onClick={redirectMusicBuddies} size="lg" w="230px" color="#FCFCFC" style={{"marginTop":"30px" }} _hover={{color: "#EB5C27",bg: "white",transition:"0.56s ease"}} > Find Producers  </Button>
@@ -106,7 +108,7 @@ export default function Collaboration(){
 
                     <Box colSpan={{ base: "auto", md: 1 }} className="col">
                         <div className="card">
-                            <Image src={publishing} alt="singer" className="img" />
+                            <LazyLoadImage src={publishing} alt="singer" className="img" />
                             <p>Publishers </p>
 
                             <Button className="collaboration-item-btn" bg="#EB5C27" onClick={redirectMusicBuddies} size="lg" w="230px" color="#FCFCFC" style={{"marginTop":"30px" }} _hover={{color: "#EB5C27",bg: "white",transition:"0.56s ease"}} > Find Publishers  </Button>
@@ -115,7 +117,7 @@ export default function Collaboration(){
 
                     <Box colSpan={{ base: "auto", md: 1 }} className="col">
                         <div className="card">
-                            <Image src={distribution} alt="singer" className="img" />
+                            <LazyLoadImage src={distribution} alt="singer" className="img" />
                             <p>Music Distributors </p>
 
                             <Button className="collaboration-item-btn" bg="#EB5C27" onClick={redirectMusicBuddies} size="lg" w="230px" color="#FCFCFC" style={{"marginTop":"30px" }} _hover={{color: "#EB5C27",bg: "white",transition:"0.56s ease"}} > Find Music Distributors  </Button>
@@ -124,7 +126,7 @@ export default function Collaboration(){
 
                     <Box colSpan={{ base: "auto", md: 1 }} className="col">
                         <div className="card">
-                            <Image src={session} alt="singer" className="img" />
+                            <LazyLoadImage src={session} alt="singer" className="img" />
                             <p>Session artists</p>
 
                             <Button className="collaboration-item-btn" bg="#EB5C27" onClick={redirectMusicBuddies} size="lg" w="230px" color="#FCFCFC" style={{"marginTop":"30px" }} _hover={{color: "#EB5C27",bg: "white",transition:"0.56s ease"}} > Find Session artists  </Button>
@@ -133,7 +135,7 @@ export default function Collaboration(){
 
                     <Box colSpan={{ base: "auto", md: 1 }} className="col">
                         <div className="card">
-                            <Image src={foley} alt="singer" className="img" />
+                            <LazyLoadImage src={foley} alt="singer" className="img" />
                             <p>Foley artists</p>
 
                             <Button className="collaboration-item-btn" bg="#EB5C27" onClick={redirectMusicBuddies} size="lg" w="230px" color="#FCFCFC" style={{"marginTop":"30px" }} _hover={{color: "#EB5C27",bg: "white",transition:"0.56s ease"}} > Find Foley artists  </Button>
@@ -142,7 +144,7 @@ export default function Collaboration(){
 
                     <Box colSpan={{ base: "auto", md: 1 }} className="col">
                         <div className="card">
-                            <Image src={tutor} alt="singer" className="img" />
+                            <LazyLoadImage src={tutor} alt="singer" className="img" />
                             <p>Tutor</p>
 
                             <Button className="collaboration-item-btn" bg="#EB5C27" onClick={redirectMusicBuddies} size="lg" w="230px" color="#FCFCFC" style={{"marginTop":"30px" }} _hover={{color: "#EB5C27",bg: "white",transition:"0.56s ease"}} > Find Tutor  </Button>
