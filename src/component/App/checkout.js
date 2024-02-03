@@ -49,7 +49,7 @@ export default function CheckoutWrap(){
     const appearance = {
         theme: 'stripe',
     };
-     const options = {
+    const options = {
         clientSecret,
         appearance,
     };
